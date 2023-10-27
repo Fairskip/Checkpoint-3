@@ -1,5 +1,9 @@
 # Checkpoint 3
 
+<br>
+
+## Partie 1 : Gestion des utilisateurs
+
 ### 1.1 : Lister les comptes utilisateurs
 
 ```
@@ -60,6 +64,9 @@ Qu'il aurait du donner plus de renseignement lors de son ajout à la liste des u
 
 <br>
 
+
+## Partie 2 : Le stockage
+
 ### 2.1 : Analyse des disques
 
 ```
@@ -104,6 +111,8 @@ Le Raid possède 2 volume groupe : root et swap_1
 
 <br>
 
+## Partie 3 : SSH
+
 ### 3.1 : Configuration de SSH
 
 Commentaire | Action
@@ -135,6 +144,8 @@ Sauvegarder et quitter | ctrl X
 
 <br>
 
+## Partie 4 : Filtrage et analyse réseau
+
 ### 4.1 : Analyse de règles de filtrage
 
 ![nft](https://github.com/Fairskip/Checkpoint-3/blob/main/nft%20list%20ruleset.png)
@@ -157,7 +168,12 @@ Ajoute les règles nécessaires pour autoriser bareos actuellement installé sur
 
 <br>
 
-## Analyse de Logs
+## Partie 5 : Sauvegardes
+
+
+<br>
+
+## Partie 6 : Analyse de Logs
 ### 6.1 : Les échecs de connexion
 
 
