@@ -135,7 +135,9 @@ Decommenter PubeyAuthentification et mettre Yes | PubkeyAuthentication yes
 Decommenter ListenAddress Ipv4 | ListenAddress 0.0.0.0
 Decommenter Listenddress IPv6 | ListenAddress ::
 Sauvegarder et quitter | ctrl X
-Créer un fichier Authorized_keys | Touch Authorized_keys
+Créer un dossier .ssh dans home avec le compte de l'user j**** | mkdir .ssh
+Entrer dans le dossier .ssh | cd .ssh
+Créer un fichier Authorized_keys avec le compte de l'user j**** | Touch Authorized_keys
 Ouvrir le fichier Authorized_keys | nano authorized_keys
 Coller la clé public rsa généré mobaxtern qu'on peut retrouver dans le fichier .ssh/id_rsa.pub | [cliquer ici](https://github.com/Fairskip/Checkpoint-3/blob/main/Authorized%20keys.png)
 Sauvegarder et quitter | ctrl X
